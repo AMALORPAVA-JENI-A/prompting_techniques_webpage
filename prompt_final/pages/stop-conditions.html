@@ -1,0 +1,78 @@
+<section class="page">
+  <h2>Stop Conditions</h2>
+
+  <div class="info-card">
+    <h3>What are Stop Conditions?</h3>
+    <p>
+      Stop conditions tell the AI when to stop generating output. They prevent overlong, repetitive, or irrelevant responses. Stop conditions help control the scope and length of AI responses.
+    </p>
+  </div>
+
+  <div class="info-card">
+    <h3>Key Questions Stop Conditions Answer</h3>
+    <ul>
+      <li>When should the AI stop writing?</li>
+      <li>How much output is needed?</li>
+      <li>What is the ending point?</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>What to Include as Stop Conditions</h3>
+    <ul>
+      <li><strong>Maximum length:</strong> Number of sentences, words, or items</li>
+      <li><strong>Specific ending point:</strong> "Stop at conclusion" or "Stop after 5 points"</li>
+      <li><strong>Completion triggers:</strong> "Stop after list is complete" or "Stop when summary is done"</li>
+      <li><strong>Depth limits:</strong> "Stay at surface level" or "Provide 3 levels of detail"</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>How to Write Stop Conditions Clearly</h3>
+    <ul>
+      <li>Be precise and specific: "Stop after 5 points" not "stop soon"</li>
+      <li>Combine with output format for clarity</li>
+      <li>Place stop conditions at the end of instructions</li>
+      <li>Use numbers for quantifiable limits</li>
+      <li>Make conditions measurable and unambiguous</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>Best Practices</h3>
+    <ul>
+      <li>Prevent AI from generating unnecessary content</li>
+      <li>Combine with rules for better control</li>
+      <li>Keep instructions simple and clear</li>
+      <li>Use for multi-step tasks to avoid rambling</li>
+      <li>Test boundaries to find optimal lengths</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>Common Mistakes to Avoid</h3>
+    <ul>
+      <li>Not specifying any stopping point</li>
+      <li>Being too vague ("Stop when ready")</li>
+      <li>Forgetting stop conditions in multi-step tasks</li>
+      <li>Setting unrealistic limits</li>
+      <li>Not explaining why a limit exists</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h3>Example</h3>
+    <p><strong>Without stop condition:</strong></p>
+    <p>"List KPIs." → AI may list 20+ points</p>
+    <p style="margin-top: 15px;"><strong>With stop condition:</strong></p>
+    <p>"List 5 KPIs for a sales dashboard used by managers to track team performance."</p>
+  </div>
+
+  <div class="info-card">
+    <h3>Simple Stop Condition Template</h3>
+    <pre style="background: #f0f0f0; padding: 12px; border-radius: 4px; overflow-x: auto;">Role: [role]
+Task: [what to do]
+Stop Condition: [when to stop]
+Output: [format]</pre>
+  </div>
+</section>
